@@ -1,7 +1,8 @@
-package com.joaostanzione.iddog
+package com.joaostanzione.iddog.ui.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.joaostanzione.iddog.R
 
 class LoginActivity : AppCompatActivity() {
 
