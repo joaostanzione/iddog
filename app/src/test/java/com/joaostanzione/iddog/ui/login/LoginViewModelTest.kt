@@ -1,9 +1,9 @@
 package com.joaostanzione.iddog.ui.login
 
 import androidx.lifecycle.Observer
+import com.joaostanzione.iddog.BaseUnitTest
 import com.joaostanzione.iddog.data.login.LoginResponse
 import com.joaostanzione.iddog.domain.login.LoginUseCase
-import com.joaostanzione.iddog.BaseUnitTest
 import io.mockk.coEvery
 import io.mockk.impl.annotations.MockK
 import io.mockk.mockk

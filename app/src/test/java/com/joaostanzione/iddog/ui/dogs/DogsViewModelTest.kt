@@ -1,9 +1,9 @@
 package com.joaostanzione.iddog.ui.dogs
 
 import androidx.lifecycle.Observer
+import com.joaostanzione.iddog.BaseUnitTest
 import com.joaostanzione.iddog.data.dogs.DogsResponse
 import com.joaostanzione.iddog.domain.dogs.DogsUseCase
-import com.joaostanzione.iddog.BaseUnitTest
 import io.mockk.coEvery
 import io.mockk.impl.annotations.MockK
 import io.mockk.mockk
