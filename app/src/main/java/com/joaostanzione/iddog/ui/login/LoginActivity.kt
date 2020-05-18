@@ -8,6 +8,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import com.joaostanzione.iddog.R
+import com.joaostanzione.iddog.ui.dogs.DogsActivity
 import kotlinx.android.synthetic.main.activity_login.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -35,7 +36,7 @@ class LoginActivity : AppCompatActivity() {
         viewModel.states.observe(this, Observer { states ->
             states?.let {
                 when (it) {
-                    is LoginViewModel.LoginState.Success -> showDogs(it.token)
+                    is LoginViewModel.LoginState.Success -> DogsActivity.start(this, it.token)
                     is LoginViewModel.LoginState.Error -> loginError.visibility = View.VISIBLE
                 }
             }
@@ -46,10 +47,6 @@ class LoginActivity : AppCompatActivity() {
                 loginLoading.visibility = if (it) View.VISIBLE else View.GONE
             }
         })
-    }
-
-    private fun showDogs(token: String) {
-        TODO("Not yet implemented")
     }
 
     private fun validEmailTextWatcher(): TextWatcher {

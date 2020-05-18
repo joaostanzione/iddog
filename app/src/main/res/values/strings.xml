@@ -3,4 +3,5 @@
     <string name="login_email_hint">your email</string>
     <string name="login_sign_in_button_label">sign in</string>
     <string name="error_message">oops! something went wrong :(</string>
+    <string name="empty_message">No photos were found in this category :(</string>
 </resources>
