@@ -15,6 +15,15 @@ Link para download do [.apk](https://github.com/joaostanzione/iddog/blob/master/
 * [Lottie](https://airbnb.design/lottie/): Para animação do loading
 * [Mockk](https://mockk.io/): Para mocks nos testes
 
+## Análise estática
+* [Detekt](https://github.com/detekt/detekt)
+* [Ktlint](https://ktlint.github.io/)
+
+Rodar utilizando o comado
+```
+./gradlew detekt ktlint
+```
+
 ## Implementações desejadas
 Devido à limitação de tempo não foi possível a implementação de todos os recursos desejados para o projeto
 * Testes de screenshot com a lib do [facebook](https://facebook.github.io/screenshot-tests-for-android/) (implementação parcial na [branch](https://github.com/joaostanzione/iddog/tree/screenshot_tests))
