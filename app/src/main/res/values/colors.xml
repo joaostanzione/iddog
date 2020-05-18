@@ -3,4 +3,6 @@
     <color name="colorPrimary">#009688</color>
     <color name="colorPrimaryDark">#B2009688</color>
     <color name="colorAccent">#636363</color>
+    <color name="dog_photo_dialog_background">#00000066</color>
+    <color name="message_view_background">#ddd</color>
 </resources>

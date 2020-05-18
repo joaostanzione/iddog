@@ -2,6 +2,10 @@
     <string name="app_name">iddog</string>
     <string name="login_email_hint">your email</string>
     <string name="login_sign_in_button_label">sign in</string>
+    <string name="menu_husky">husky</string>
+    <string name="menu_labrador">labrador</string>
+    <string name="menu_hound">hound</string>
+    <string name="menu_pug">pug</string>
     <string name="error_message">oops! something went wrong :(</string>
     <string name="empty_message">No photos were found in this category :(</string>
 </resources>
