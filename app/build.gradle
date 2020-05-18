@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply from: "$rootDir/tools/quality.gradle"
+apply plugin: 'com.facebook.testing.screenshot'
 
 android {
     compileSdkVersion 29
@@ -64,4 +65,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-intents:3.2.0'
     androidTestImplementation "io.mockk:mockk-android:1.9.2"
     androidTestImplementation "org.koin:koin-test:2.0.1"
+    androidTestImplementation "com.facebook.testing.screenshot:core:0.12.0"
 }
